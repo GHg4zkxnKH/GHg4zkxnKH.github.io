@@ -1,0 +1,56 @@
+@media (max-width: 768px) {
+  #hero-video {
+    width: 240%;
+    transform: translate(-28%);
+  }
+}
+
+#navbar {
+  --bs-bg-opacity: 0.4;
+}
+
+.info-text {
+  padding: 30px 28px 30px 28px;
+}
+
+#what-makes-our-sweaters-special-text {
+  position: relative;
+  top: -50%;
+  font-size: 5vw;
+}
+
+.info-media {
+  padding: 0 0 0 0;
+}
+
+.info-title {
+  padding-bottom: 10px;
+}
+
+#container {
+  height:550px; 
+  position:relative; 
+  overflow:hidden;
+}
+
+.photobanner {
+  position:absolute; 
+  top:0px; 
+  left:0px; 
+  overflow:hidden; 
+  white-space: nowrap;
+  animation: bannermove 15s linear infinite;
+}
+
+.photobanner img {    
+  margin: 0 0.5em 
+}
+
+@keyframes bannermove {
+  0% {
+      transform: translate(0, 0);
+  }
+  100% {
+      transform: translate(-50%, 0);
+  }
+}
