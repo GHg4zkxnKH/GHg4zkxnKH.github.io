@@ -1,0 +1,33 @@
+@media (max-width: 768px) {
+  #hero-video {
+    width: 240%;
+    transform: translate(-28%);
+  }
+}
+
+#navbar {
+  --bs-bg-opacity: 0.4;
+}
+
+.info-text {
+  padding: 10% 10% 10% 10%;
+}
+
+#what-makes-our-sweaters-special-text {
+  position: relative;
+  top: -50%;
+  font-size: 4vw;
+}
+
+.info-media {
+  padding: 0 0 0 0;
+}
+
+.info-title {
+  padding-bottom: 10px;
+}
+
+#fabric {
+  margin-bottom: -5%;
+}
+
